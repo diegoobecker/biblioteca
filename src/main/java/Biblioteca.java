@@ -1,6 +1,9 @@
 public class Biblioteca {
 
-    public String welcome() {
-        return "Welcome Biblioteca";
+    public static void main(String[] args) {
+
+        Printer.print(MessageManager.WELCOME_MESSAGE);
+
     }
+
 }
