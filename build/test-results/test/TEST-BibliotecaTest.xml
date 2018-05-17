@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BibliotecaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-16T17:52:14" hostname="Diegos-MacBook-Pro.local" time="0.001">
-  <properties/>
-  <testcase name="returnTrueWhenWelcomeMessageIsCorret" classname="BibliotecaTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

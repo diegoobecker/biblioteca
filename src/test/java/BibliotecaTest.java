@@ -1,21 +1,21 @@
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.core.Is;
-import org.junit.*;
 
-import static org.mockito.Mockito.*;
+import org.junit.*;
+import org.mockito.Mockito;
+
+import static org.mockito.Mockito.mock;
+
 
 public class BibliotecaTest {
 
-    private Biblioteca biblioteca;
-
-    @Before
-    public void init() {
-        this.biblioteca = new Biblioteca();
-    }
-
     @Test
-    public void returnTrueWhenWelcomeMessageIsCorret() {
+    public void printsWelcomeMessage() {
 
+        Printer printerMock = mock(Printer.class);
 
+        Biblioteca biblioteca = new Biblioteca(printerMock);
+
+        biblioteca.run();
+
+        Mockito.verify(printerMock).print("Welcome Biblioteca");
     }
 }
