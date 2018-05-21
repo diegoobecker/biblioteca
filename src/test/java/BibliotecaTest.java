@@ -16,6 +16,6 @@ public class BibliotecaTest {
 
         biblioteca.run();
 
-        Mockito.verify(printerMock).print("Welcome Biblioteca");
+        Mockito.verify(printerMock).printMessage("Welcome Biblioteca");
     }
 }

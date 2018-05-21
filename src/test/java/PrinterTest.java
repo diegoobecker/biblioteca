@@ -1,3 +1,4 @@
+import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
 import org.hamcrest.core.Is;
 import org.junit.After;
@@ -22,11 +23,22 @@ public class PrinterTest {
     }
 
     @Test
-    public void printsMessage() {
+    public void printMessage() {
         Printer printer = new Printer();
 
-        printer.print("Some Message");
+        printer.printMessage("Some Message");
 
         MatcherAssert.assertThat(outContent.toString(), Is.is("Some Message"));
+    }
+
+    @Test
+    public void printBookList() {
+        BookList bookList = new BookList();
+
+        Printer printer = new Printer();
+
+        printer.printBookList(bookList.getBookList());
+
+        MatcherAssert.assertThat(outContent.toString(), CoreMatchers.containsString("Clean Code"));
     }
 }

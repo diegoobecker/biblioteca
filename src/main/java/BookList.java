@@ -3,12 +3,28 @@ import java.util.List;
 
 public class BookList {
 
-    private List<Book> list = new ArrayList<>();
+    private List<Book> bookList;
 
-    public List<Book> addBook(Book book) {
+    public BookList() {
+        this.bookList = new ArrayList();
 
-        list.add(book);
+        addBook("Java Prático");
+        addBook("Clean Code");
+        addBook("Test-Driven Developement");
 
-        return list;
     }
+
+    private void addBook(String bookName) {
+        Book b1 = new Book();
+
+        b1.setName(bookName);
+
+        this.bookList.add(b1);
+    }
+
+    public List<Book> getBookList() {
+        return bookList;
+    }
+
+
 }
