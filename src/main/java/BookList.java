@@ -8,16 +8,11 @@ public class BookList {
     public BookList() {
         this.bookList = new ArrayList();
 
-        addBook("Java Prático");
-        addBook("Clean Code");
-        addBook("Test-Driven Developement");
-
+        addBook(1, "Clean Code", "Robert C Martin", "2008");
     }
 
-    private void addBook(String bookName) {
-        Book b1 = new Book();
-
-        b1.setName(bookName);
+    private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook) {
+        Book b1 = new Book(codeBook, nameBook, authorBook, publisherBook);
 
         this.bookList.add(b1);
     }
@@ -25,6 +20,5 @@ public class BookList {
     public List<Book> getBookList() {
         return bookList;
     }
-
 
 }
