@@ -12,7 +12,7 @@ public class Biblioteca {
 
         BookList bookList = new BookList();
 
-        printer.printBookList(bookList.getBookList());
+        printer.printMessage(bookList.getAllBookListAsString());
     }
 
     public static void main(String[] args) {

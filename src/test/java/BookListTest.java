@@ -8,6 +8,6 @@ public class BookListTest {
     public void bookListIsNotEmpty() {
         BookList booklist = new BookList();
 
-        MatcherAssert.assertThat(booklist.getBookList().isEmpty(), Is.is(false));
+        MatcherAssert.assertThat(booklist.getAllBookListAsString().isEmpty(), Is.is(false));
     }
 }

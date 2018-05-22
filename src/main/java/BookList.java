@@ -9,6 +9,8 @@ public class BookList {
         this.bookList = new ArrayList();
 
         addBook(1, "Clean Code", "Robert C Martin", "2008");
+        addBook(2, "Test-Driven Developement By Example", "Kent Back", "2000");
+
     }
 
     private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook) {
@@ -17,7 +19,18 @@ public class BookList {
         this.bookList.add(b1);
     }
 
-    public List<Book> getBookList() {
+    public String getAllBookListAsString() {
+
+        String bookList = "";
+
+        bookList += "\nCode / Name / Author / Publisher";
+
+        for (Book book : this.bookList) {
+            bookList += "\n" + book.getCode();
+            bookList += " / " + book.getName();
+            bookList += " / " + book.getAuthor();
+            bookList += " / " + book.getPublisher();
+        }
         return bookList;
     }
 

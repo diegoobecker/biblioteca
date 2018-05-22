@@ -30,15 +30,4 @@ public class PrinterTest {
 
         MatcherAssert.assertThat(outContent.toString(), Is.is("Some Message"));
     }
-
-    @Test
-    public void printBookList() {
-        BookList bookList = new BookList();
-
-        Printer printer = new Printer();
-
-        printer.printBookList(bookList.getBookList());
-
-        MatcherAssert.assertThat(outContent.toString(), CoreMatchers.containsString("Clean Code"));
-    }
 }
