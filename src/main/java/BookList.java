@@ -14,22 +14,22 @@ public class BookList {
     }
 
     private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook) {
-        Book b1 = new Book(codeBook, nameBook, authorBook, publisherBook);
+        Book book = new Book(codeBook, nameBook, authorBook, publisherBook);
 
-        this.bookList.add(b1);
+        this.bookList.add(book);
     }
 
     public String getAllBookListAsString() {
 
         String bookList = "";
 
-        bookList += "\nCode / Name / Author / Publisher";
+//        bookList += "\nCode / Name / Author / Publisher";
 
         for (Book book : this.bookList) {
-            bookList += "\n" + book.getCode();
-            bookList += " / " + book.getName();
-            bookList += " / " + book.getAuthor();
-            bookList += " / " + book.getPublisher();
+//            bookList += "\n" + book.getCode();
+            bookList += "\n" + book.getName();
+//            bookList += " / " + book.getAuthor();
+//            bookList += " / " + book.getPublisher();
         }
         return bookList;
     }
