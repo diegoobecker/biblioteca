@@ -11,7 +11,7 @@ public class Biblioteca {
     public void run() {
         printer.printMessage(MessageManager.WELCOME_MESSAGE);
 
-        printer.printMessage(bookList.getAllBookListAsString());
+//        printer.printMessage(bookList.getBookList());
     }
 
     public static void main(String[] args) {

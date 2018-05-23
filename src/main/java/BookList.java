@@ -19,18 +19,7 @@ public class BookList {
         this.bookList.add(book);
     }
 
-    public String getAllBookListAsString() {
-
-        String bookList = "";
-
-//        bookList += "\nCode / Name / Author / Publisher";
-
-        for (Book book : this.bookList) {
-//            bookList += "\n" + book.getCode();
-            bookList += "\n" + book.getName();
-//            bookList += " / " + book.getAuthor();
-//            bookList += " / " + book.getPublisher();
-        }
+    public List<Book> getBookList() {
         return bookList;
     }
 
