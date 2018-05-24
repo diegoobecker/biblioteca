@@ -7,13 +7,11 @@ public class Converter {
         String bookListConverted = "\nCode / Name / Author / Publisher";
 
         for (Book book : bookList) {
-            bookListConverted += book.getCode();
-            bookListConverted += book.getName();
-            bookListConverted += book.getAuthor();
-            bookListConverted += book.getPublisher();
-
+            bookListConverted += "\n" + book.getCode();
+            bookListConverted += " / " + book.getName();
+            bookListConverted += " / " + book.getAuthor();
+            bookListConverted += " / " + book.getPublisher();
         }
-
         return bookListConverted;
     }
 }
