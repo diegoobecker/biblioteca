@@ -9,8 +9,6 @@ public class ConverterTest {
 
     @Test
     public void convertBookListToString() {
-
-
         Converter convert = new Converter();
 
         List<Book> fakeBooks = Collections.singletonList(new Book(1, "Fake book 1", null, null));

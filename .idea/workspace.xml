@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759ee83c-1ca7-41fc-bcb9-451ff70c7071" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Biblioteca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/biblioteca.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/biblioteca.tar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/biblioteca.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/biblioteca.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/biblioteca.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/biblioteca.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Biblioteca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConverterTest.java" afterDir="false" />
+>>>>>>> book_list
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -42,8 +64,13 @@
       <file leaf-file-name="ConverterTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ConverterTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="225">
               <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+=======
+            <state relative-caret-position="180">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+>>>>>>> book_list
             </state>
           </provider>
         </entry>
@@ -126,7 +153,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main_menu" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -590,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Biblioteca">
+  <component name="RunManager" selected="JUnit.ConverterTest">
     <configuration name="Biblioteca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Biblioteca" />
       <module name="biblioteca_main" />
@@ -714,8 +741,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Biblioteca" />
         <item itemvalue="JUnit.ConverterTest" />
+        <item itemvalue="Application.Biblioteca" />
         <item itemvalue="JUnit.ConverterTest.convertBookList" />
         <item itemvalue="JUnit.BookListTest" />
         <item itemvalue="JUnit.BibliotecaTest.printBooks" />
@@ -736,9 +763,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConverterTest - 2018.05.23 at 18h 14m 33s.xml">
-      <configuration name="ConverterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConverterTest - 2018.05.23 at 18h 14m 45s.xml">
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
@@ -764,6 +788,9 @@
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ConverterTest - 2018.05.23 at 18h 40m 52s.xml">
+      <configuration name="ConverterTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConverterTest - 2018.05.25 at 13h 44m 39s.xml">
       <configuration name="ConverterTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -816,7 +843,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.2921212" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3260606" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22460657" />
     </layout>
@@ -1108,6 +1134,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainMenuOptionTest.java" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1122,6 +1149,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> book_list
     <entry file="file://$PROJECT_DIR$/src/main/java/MainMenuOption.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1164,6 +1193,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BibliotecaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Biblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1171,10 +1207,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BibliotecaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Converter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
