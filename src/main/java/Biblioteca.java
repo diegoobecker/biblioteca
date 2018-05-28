@@ -23,6 +23,9 @@ public class Biblioteca {
         Biblioteca biblioteca = new Biblioteca(printer, bookList);
 
         biblioteca.run();
+
+        MainMenu mainMenu = new MainMenu();
+        mainMenu.showMenuOptions();
     }
 
 }
