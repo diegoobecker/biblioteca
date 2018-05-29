@@ -1,10 +1,9 @@
 import org.hamcrest.CoreMatchers;
 import org.hamcrest.MatcherAssert;
-import org.hamcrest.core.Is;
 import org.hamcrest.core.IsNot;
 import org.junit.Test;
+import org.mockito.Mockito;
 
-import java.util.List;
 
 public class MainMenuTest {
 
@@ -19,6 +18,18 @@ public class MainMenuTest {
     public void menuOptionsShowed() {
         MainMenu mainMenu = new MainMenu();
 
-//        MatcherAssert.assertThat(mainMenu.showMenuOptions(), CoreMatchers.containsString(""));
+        MatcherAssert.assertThat(mainMenu.showMenuOptions(), CoreMatchers.containsString("\nPlease, select menu item!"));
+    }
+
+    @Test
+    public void optionSelectedIsInt() {
+        MainMenu mainMenu = new MainMenu();
+
+        MainMenu mainMenuMock = Mockito.mock(MainMenu.class);
+
+        Mockito.when(mainMenuMock.getOptionSelected()).thenReturn(0);
+
+        MatcherAssert.assertThat(mainMenuMock.getOptionSelected(), CoreMatchers.is(0));
+
     }
 }

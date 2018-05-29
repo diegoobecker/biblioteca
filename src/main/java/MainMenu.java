@@ -10,30 +10,35 @@ public class MainMenu {
 
     }
 
-    public void showMenuOptions() {
-        int select;
-        do {
-            System.out.println("please select menu item");
-            System.out.println("1-create, 2-remove, 3 - rename");
+    public String showMenuOptions() {
+        String menu = "\nPlease, select menu item!";
 
-            Scanner scanner = new Scanner(System.in);
-            select = scanner.nextInt();
+        for (MainMenuOptions options : getMenuOptions()) {
+            menu += "\n" + options.getOption() + " - " + options.getDescription();
+        }
 
-            switch (select) {
-                case 1:
-                    System.out.println("please select menu item");
-                    System.out.println("1-image, 2-txt");
-                    break;
-                case 2:
-                    System.out.println("please select menu item");
-                    System.out.println("1-file from pc1, 2-file from pc2, 3-file from pc3");
-                    break;
-                case 3:
-                    System.out.println("please type new name");
-                    break;
-            }
+        return menu;
+    }
 
-        } while (select != 4);
+
+    public int optionSelected() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextInt();
+    }
+
+    public void actionAfterOptionSelected(int option) {
+
+        for (MainMenuOptions options : getMenuOptions()) {
+
+        }
+
+        switch (option) {
+            case 1:
+                System.out.println("");
+                break;
+            default:
+                System.out.println("Default");
+        }
     }
 
 //    chamar a lista de opções

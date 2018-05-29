@@ -17,8 +17,9 @@ public class BibliotecaTest {
 
         Printer printerMock = mock(Printer.class);
         BookList bookListMock = mock(BookList.class);
+        MainMenu mainMenu = mock(MainMenu.class);
 
-        Biblioteca biblioteca = new Biblioteca(printerMock, bookListMock);
+        Biblioteca biblioteca = new Biblioteca(printerMock, bookListMock, mainMenu);
 
         biblioteca.run();
 
