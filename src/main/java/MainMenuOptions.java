@@ -1,5 +1,5 @@
 public enum MainMenuOptions {
-    BOOK_LIST(1, "Book List");
+    LIST_BOOK(1, "List Books");
 
     private int option;
     private String description;

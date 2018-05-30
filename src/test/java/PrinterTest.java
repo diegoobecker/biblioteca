@@ -26,7 +26,7 @@ public class PrinterTest {
     public void printMessage() {
         Printer printer = new Printer();
 
-        printer.printMessage("Some Message");
+        printer.print("Some Message");
 
         MatcherAssert.assertThat(outContent.toString(), Is.is("Some Message"));
     }

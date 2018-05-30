@@ -1,8 +1,15 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.InputMismatchException;
+import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class MainMenu {
+
+//    private MainMenuOptions mainMenuOptions = MainMenuOptions.values();
+    private int optionSelected;
+
+    public int getOptionSelected() {
+        return optionSelected;
+    }
 
     public MainMenuOptions[] getMenuOptions() {
 
@@ -10,63 +17,40 @@ public class MainMenu {
 
     }
 
-    public String showMenuOptions() {
-        String menu = "\nPlease, select menu item!";
+    public void showMenuOptions(Printer printer) {
 
-        for (MainMenuOptions options : getMenuOptions()) {
-            menu += "\n" + options.getOption() + " - " + options.getDescription();
+        printer.print("\nPlease, select option menu item!");
+
+        for (MainMenuOptions option : getMenuOptions()) {
+            printer.print("\n" + option.getOption() + " - " + option.getDescription());
         }
 
-        return menu;
-    }
-
-
-    public int optionSelected() {
         Scanner scanner = new Scanner(System.in);
-        return scanner.nextInt();
-    }
+        try{
+            optionSelected = scanner.nextInt();
+        } catch (InputMismatchException e){
+            printer.print("The option should be a integer number!");
+            showMenuOptions(printer);
 
-    public void actionAfterOptionSelected(int option) {
-
-        for (MainMenuOptions options : getMenuOptions()) {
-
-        }
-
-        switch (option) {
-            case 1:
-                System.out.println("");
-                break;
-            default:
-                System.out.println("Default");
+        } catch (NoSuchElementException ne){
+            printer.print(ne.getMessage());
         }
     }
 
-//    chamar a lista de opções
-//    gerenciar a escolha da opção
-//public static void main(String[] args) {
-//    int select;
-//    do {
-//        System.out.println("please select menu item");
-//        System.out.println("1-create, 2-remove, 3 - rename");
-//
-//        Scanner scanner = new Scanner(System.in);
-//        select = scanner.nextInt();
-//
-//        switch (select) {
-//            case 1:
-//                System.out.println("please select menu item");
-//                System.out.println("1-image, 2-txt");
-//                break;
-//            case 2:
-//                System.out.println("please select menu item");
-//                System.out.println("1-file from pc1, 2-file from pc2, 3-file from pc3");
-//                break;
-//            case 3:
-//                System.out.println("please type new name");
-//                break;
-//        }
-//
-//    } while (select != 4);
-//}
+    public void actionMenu(Printer printer) {
+//            switch (optionSelected) {
+//                case MainMenuOptions.LIST_BOOK.getOption():
+//            }
+
+            if(optionSelected == MainMenuOptions.LIST_BOOK.getOption()){
+                printer.print("List Books");
+                Converter converter = new Converter();
+                BookList bookList = new BookList();
+
+                printer.print(converter.bookListToString(bookList.getBookList()));
+            }
+
+//            returnMenu();
+    }
 
 }

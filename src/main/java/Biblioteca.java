@@ -11,19 +11,12 @@ public class Biblioteca {
     }
 
     public void run() {
-        printer.printMessage(MessageManager.WELCOME_MESSAGE);
+        printer.print(MessageManager.WELCOME_MESSAGE);
 
-//        Converter converter = new Converter();
-//
-//        printer.printMessage(converter.bookListToString(bookList.getBookList()));
+//        printer.print(mainMenu.showMenuOptions());
+        mainMenu.showMenuOptions(printer);
 
-        printer.printMessage(mainMenu.showMenuOptions());
-
-        printer.printMessage("\nOption: ");
-        int option = mainMenu.optionSelected();
-
-        mainMenu.actionAfterOptionSelected(option);
-
+        mainMenu.actionMenu(printer);
     }
 
     public static void main(String[] args) {
