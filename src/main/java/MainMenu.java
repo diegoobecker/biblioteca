@@ -1,56 +1,57 @@
 import java.util.InputMismatchException;
-import java.util.NoSuchElementException;
 import java.util.Scanner;
 
 public class MainMenu {
 
-//    private MainMenuOptions mainMenuOptions = MainMenuOptions.values();
-    private int optionSelected;
+    private final Printer printer;
 
-    public int getOptionSelected() {
-        return optionSelected;
+    private int chosenOption;
+
+    public MainMenu(Printer printer) {
+        this.printer = printer;
     }
 
-    public MainMenuOptions[] getMenuOptions() {
+    public void showMainMenu() {
+        this.printer.print(getMenuOptions());
 
-        return MainMenuOptions.values();
+        this.printer.print("\n\nYour Choice: ");
 
-    }
-
-    public void showMenuOptions(Printer printer) {
-
-        printer.print("\nPlease, select option menu item!");
-
-        for (MainMenuOptions option : getMenuOptions()) {
-            printer.print("\n" + option.getOption() + " - " + option.getDescription());
+        Scanner chose = new Scanner(System.in);
+        try {
+            chosenOption = chose.nextInt();
+        }catch (InputMismatchException e) {
+            this.printer.print("Option is not valid!");
+            showMainMenu();
         }
 
-        Scanner scanner = new Scanner(System.in);
-        try{
-            optionSelected = scanner.nextInt();
-        } catch (InputMismatchException e){
-            printer.print("The option should be a integer number!");
-            showMenuOptions(printer);
-
-        } catch (NoSuchElementException ne){
-            printer.print(ne.getMessage());
-        }
+        actionMenuOption(getActionMenu(chosenOption));
     }
 
-    public void actionMenu(Printer printer) {
-//            switch (optionSelected) {
-//                case MainMenuOptions.LIST_BOOK.getOption():
-//            }
-
-            if(optionSelected == MainMenuOptions.LIST_BOOK.getOption()){
-                printer.print("List Books");
-                Converter converter = new Converter();
+    private void actionMenuOption(String actionMenu) {
+        switch (actionMenu) {
+            case "LIST_BOOK":
                 BookList bookList = new BookList();
-
-                printer.print(converter.bookListToString(bookList.getBookList()));
-            }
-
-//            returnMenu();
+                Converter converter = new Converter();
+                this.printer.print(converter.bookListToString(bookList.getBookList()));
+        }
     }
 
+    private String getActionMenu(int chosenOption) {
+        for (MenuOptions option : MenuOptions.values()) {
+            if (option.getOption() == chosenOption) {
+                return option.getAction();
+            }
+        }
+        return "";
+    }
+
+    public String getMenuOptions() {
+        String options = "\nPlease, select option menu item!";
+
+        for (MenuOptions option : MenuOptions.values()) {
+            options += "\n" + option.getOption() + " - " + option.getDescription();
+        }
+
+        return options;
+    }
 }

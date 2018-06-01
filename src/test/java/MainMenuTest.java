@@ -6,11 +6,28 @@ import org.mockito.Mockito;
 
 
 public class MainMenuTest {
+    @Test
+    public void getMenuOptionsIsNotEmpty() {
+        Printer printer = new Printer();
+        MainMenu mainMenu = new MainMenu(printer);
+
+        MatcherAssert.assertThat(mainMenu.getMenuOptions(), IsNot.not(""));
+    }
 
     @Test
-    public void menuOptionsIsNotEmpty() {
-        MainMenu mainMenu = new MainMenu();
+    public void getMenuOptionsWasCalled() {
+        MainMenu mainMenuMock = Mockito.mock(MainMenu.class);
 
-        MatcherAssert.assertThat(mainMenu.getMenuOptions().length, IsNot.not(0));
+        Mockito.when(mainMenuMock.getMenuOptions()).thenReturn("A");
+
+        Mockito.verify(mainMenuMock, Mockito.never()).showMainMenu();
+    }
+
+    @Test
+    public void getMenuOptionsReturnStringMenu() {
+        Printer printer = new Printer();
+        MainMenu mainMenu = new MainMenu(printer);
+
+        MatcherAssert.assertThat(mainMenu.getMenuOptions(), CoreMatchers.containsString("\nPlease, select option menu item!"));
     }
 }

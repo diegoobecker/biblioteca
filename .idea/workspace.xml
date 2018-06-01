@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="759ee83c-1ca7-41fc-bcb9-451ff70c7071" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Biblioteca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/biblioteca.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/biblioteca.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/biblioteca.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/biblioteca.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/biblioteca.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/biblioteca.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Biblioteca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Biblioteca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Biblioteca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/MessageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MessageManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/BibliotecaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/BibliotecaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/PrinterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainMenuOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainMenuOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BibliotecaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BibliotecaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainMenuActionsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainMenuOptions.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainMenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainMenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrinterTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,17 +32,8 @@
       <file leaf-file-name="Biblioteca.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Biblioteca.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BibliotecaTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BibliotecaTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -64,12 +41,12 @@
       <file leaf-file-name="MainMenu.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +55,8 @@
       <file leaf-file-name="MainMenuTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/MainMenuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,35 +64,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+      <file leaf-file-name="MenuOptions.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MenuOptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainMenuOptions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainMenuOptions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
               <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrinterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -140,7 +101,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="book_list" />
       </map>
     </option>
   </component>
@@ -490,11 +451,15 @@
         <option value="$PROJECT_DIR$/src/test/java/ConverterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainMenuActionsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Printer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainMenuOptions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/MainMenuTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Biblioteca.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrinterTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/BibliotecaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainMenuOptionsList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainMenuOptions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainMenuOptionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MenuOptionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainMenuTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Biblioteca.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MenuOptions.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainMenu.java" />
       </list>
     </option>
@@ -617,23 +582,6 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="BibliotecaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BibliotecaTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MainMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -651,13 +599,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainMenuTest.menuOptionsShowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainMenuTest.getMenuOptionsReturnStringMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainMenuTest" />
-      <option name="METHOD_NAME" value="menuOptionsShowed" />
+      <option name="METHOD_NAME" value="getMenuOptionsReturnStringMenu" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -668,13 +616,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MainMenuTest.optionSelectedIsInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainMenuTest.getOptionsListIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainMenuTest" />
-      <option name="METHOD_NAME" value="optionSelectedIsInt" />
+      <option name="METHOD_NAME" value="getOptionsListIsNotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MainMenuTest.showMainMenuIsNoEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainMenuTest" />
+      <option name="METHOD_NAME" value="showMainMenuIsNoEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -725,18 +690,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Biblioteca" />
+      <item itemvalue="JUnit.MainMenuTest.showMainMenuIsNoEmpty" />
+      <item itemvalue="JUnit.MainMenuTest.getOptionsListIsNotEmpty" />
       <item itemvalue="JUnit.MainMenuTest" />
-      <item itemvalue="JUnit.MainMenuTest.menuOptionsShowed" />
-      <item itemvalue="JUnit.MainMenuTest.optionSelectedIsInt" />
-      <item itemvalue="JUnit.BibliotecaTest" />
+      <item itemvalue="JUnit.MainMenuTest.getMenuOptionsReturnStringMenu" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Biblioteca" />
-        <item itemvalue="JUnit.MainMenuTest.optionSelectedIsInt" />
-        <item itemvalue="JUnit.BibliotecaTest" />
         <item itemvalue="JUnit.MainMenuTest" />
-        <item itemvalue="JUnit.MainMenuTest.menuOptionsShowed" />
+        <item itemvalue="JUnit.MainMenuTest.getMenuOptionsReturnStringMenu" />
+        <item itemvalue="JUnit.MainMenuTest.getOptionsListIsNotEmpty" />
+        <item itemvalue="JUnit.MainMenuTest.showMainMenuIsNoEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -754,35 +719,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 14h 50m 37s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_getChoseOptionIsNotEmpty - 2018.06.01 at 10h 22m 38s.xml">
+      <configuration name="MainMenuTest.getChoseOptionIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 14h 50m 57s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_getChoseOptionIsNotEmpty - 2018.06.01 at 10h 23m 35s.xml">
+      <configuration name="MainMenuTest.getChoseOptionIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 14h 51m 25s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MenuOptionsTest - 2018.06.01 at 11h 13m 48s.xml">
+      <configuration name="MenuOptionsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 14h 55m 04s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_choseOption - 2018.06.01 at 11h 32m 21s.xml">
+      <configuration name="MainMenuTest.choseOption" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 15h 14m 00s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_showMainMenuIsNoEmpty - 2018.06.01 at 15h 30m 26s.xml">
+      <configuration name="MainMenuTest.showMainMenuIsNoEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BibliotecaTest - 2018.05.29 at 15h 23m 59s.xml">
-      <configuration name="BibliotecaTest" configurationId="JUnit" />
+    <history-entry file="MainMenuTest - 2018.06.01 at 15h 53m 22s.xml">
+      <configuration name="MainMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 15h 26m 31s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest - 2018.06.01 at 16h 40m 35s.xml">
+      <configuration name="MainMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 15h 27m 47s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest - 2018.06.01 at 16h 42m 09s.xml">
+      <configuration name="MainMenuTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 15h 28m 08s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest_getMenuOptionsReturnStringMenu - 2018.06.01 at 16h 43m 56s.xml">
+      <configuration name="MainMenuTest.getMenuOptionsReturnStringMenu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainMenuTest_optionSelectedIsInt - 2018.05.29 at 15h 29m 08s.xml">
-      <configuration name="MainMenuTest.optionSelectedIsInt" configurationId="JUnit" />
+    <history-entry file="MainMenuTest - 2018.06.01 at 17h 15m 05s.xml">
+      <configuration name="MainMenuTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -802,21 +767,42 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.25575757" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
       <window_info anchor="right" id="Gradle" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987879" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987879" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.25575757" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21090908" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="UI Designer" order="4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987879" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.2921212" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3260606" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23319027" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -824,17 +810,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1031,13 +1010,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainMenuOption.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Converter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -1049,30 +1021,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" lean-forward="true" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1090,33 +1038,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BibliotecaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainMenuOptions.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainMenuActionsTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/MenuOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MenuOptionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainMenuTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="330">
+          <caret line="22" column="66" selection-start-line="22" selection-start-column="66" selection-end-line="22" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Converter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BookList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1125,33 +1108,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PrinterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BibliotecaTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MenuOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="41" />
+          <folding>
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Biblioteca.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
           </folding>
         </state>
       </provider>

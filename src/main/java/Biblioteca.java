@@ -13,16 +13,13 @@ public class Biblioteca {
     public void run() {
         printer.print(MessageManager.WELCOME_MESSAGE);
 
-//        printer.print(mainMenu.showMenuOptions());
-        mainMenu.showMenuOptions(printer);
-
-        mainMenu.actionMenu(printer);
+        mainMenu.showMainMenu();
     }
 
     public static void main(String[] args) {
         Printer printer = new Printer();
         BookList bookList = new BookList();
-        MainMenu mainMenu = new MainMenu();
+        MainMenu mainMenu = new MainMenu(printer);
 
         Biblioteca biblioteca = new Biblioteca(printer, bookList, mainMenu);
 
