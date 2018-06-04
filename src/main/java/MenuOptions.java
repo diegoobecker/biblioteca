@@ -1,6 +1,5 @@
 public enum MenuOptions {
-    LIST_BOOK(1, "List Books", "LIST_BOOK"),
-    QUIT(0, "Quit", "QUIT");
+    LIST_BOOK(1, "List Books", "LIST_BOOK");
 
     private int option;
     private String description;

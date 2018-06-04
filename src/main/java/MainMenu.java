@@ -24,25 +24,28 @@ public class MainMenu {
             showMainMenu();
         }
 
-        actionMenuOption(getActionMenu(chosenOption));
+        actionMenu(chosenOption);
     }
 
-    private void actionMenuOption(String actionMenu) {
+    private void actionMenu(int chosenOption) {
+        String actionMenu = "";
+        for (MenuOptions option : MenuOptions.values()) {
+            if (option.getOption() == chosenOption) {
+                actionMenu = option.getAction();
+            }
+        }
+
         switch (actionMenu) {
             case "LIST_BOOK":
+                this.printer.print("\nList Books");
                 BookList bookList = new BookList();
                 Converter converter = new Converter();
                 this.printer.print(converter.bookListToString(bookList.getBookList()));
+                break;
+            default:
+                this.printer.print("Option is not valid!");
+                showMainMenu();
         }
-    }
-
-    private String getActionMenu(int chosenOption) {
-        for (MenuOptions option : MenuOptions.values()) {
-            if (option.getOption() == chosenOption) {
-                return option.getAction();
-            }
-        }
-        return "";
     }
 
     public String getMenuOptions() {
