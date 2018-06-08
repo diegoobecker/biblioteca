@@ -11,6 +11,17 @@ public enum MenuOptions {
         this.action = action;
     }
 
+    public static MenuOptions resolveMenuOption(int optionCode) {
+
+        for (MenuOptions option : MenuOptions.values()) {
+            if (option.getOption() == optionCode) {
+                return option;
+            }
+        }
+
+        throw new IllegalArgumentException("Nao existe Option com o codigo: " + optionCode);
+    }
+
     public int getOption() {
         return option;
     }

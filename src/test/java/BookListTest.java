@@ -6,7 +6,7 @@ public class BookListTest {
 
     @Test
     public void bookListIsNotEmpty() {
-        BookList booklist = new BookList();
+        ListBook booklist = new ListBook();
 
         MatcherAssert.assertThat(booklist.getBookList().isEmpty(), Is.is(false));
     }

@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookList {
+public class ListBook {
 
-    private List<Book> bookList;
+    private List<Book> listBook;
 
-    public BookList() {
-        this.bookList = new ArrayList();
+    public ListBook() {
+        this.listBook = new ArrayList();
 
         addBook(1, "Clean Code", "Robert C Martin", "2008");
         addBook(2, "Test-Driven Developement By Example", "Kent Back", "2000");
@@ -16,11 +16,11 @@ public class BookList {
     private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook) {
         Book book = new Book(codeBook, nameBook, authorBook, publisherBook);
 
-        this.bookList.add(book);
+        this.listBook.add(book);
     }
 
     public List<Book> getBookList() {
-        return bookList;
+        return listBook;
     }
 
 }

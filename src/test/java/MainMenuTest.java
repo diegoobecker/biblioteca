@@ -20,7 +20,7 @@ public class MainMenuTest {
 
         Mockito.when(mainMenuMock.getMenuOptions()).thenReturn("A");
 
-        Mockito.verify(mainMenuMock, Mockito.never()).showMainMenu();
+        Mockito.verify(mainMenuMock, Mockito.never()).getMenuOptions();
     }
 
     @Test
@@ -29,5 +29,14 @@ public class MainMenuTest {
         MainMenu mainMenu = new MainMenu(printer);
 
         MatcherAssert.assertThat(mainMenu.getMenuOptions(), CoreMatchers.containsString("\nPlease, select option menu item!"));
+    }
+
+    @Test
+    public void getChosenOptionWasCalled() {
+        MainMenu mainMenuMock = Mockito.mock(MainMenu.class);
+
+        Mockito.when(mainMenuMock.getChosenOption()).thenReturn(0);
+
+        Mockito.verify(mainMenuMock, Mockito.never()).getChosenOption();
     }
 }
