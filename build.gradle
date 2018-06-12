@@ -12,6 +12,8 @@ plugins {
 
     // Apply the application plugin to add support for building an application
     id 'application'
+
+//    id 'findbugs'
 }
 
 // Define the main class for the application
@@ -21,10 +23,13 @@ dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     compile 'com.google.guava:guava:23.0'
 
+//    compile 'com.google.code.findbugs:annotations:3.0.1'
+
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
 
     testCompile 'org.mockito:mockito-core:2.+'
+
 }
 
 // In this section you declare where to find the dependencies of your project
@@ -33,3 +38,24 @@ repositories {
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
+
+//findbugs {
+//    sourceSets = [sourceSets.main]
+////Default sourceSet
+//    toolVersion = "3.0.1"
+//    reportsDir = file("$project.buildDir/findbugsReports")
+//    effort = "max"
+//    reportLevel = "low"
+//}
+//
+//sourceSets {
+//    main {
+//        java {
+//            srcDir 'main' }
+//    }
+//    test {
+//        resources {
+//            srcDir 'test'
+//        }
+//    }
+//}
