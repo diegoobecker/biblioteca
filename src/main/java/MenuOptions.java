@@ -1,14 +1,12 @@
 public enum MenuOptions {
-    LIST_BOOK(1, "List Books", "LIST_BOOK");
+    LIST_BOOK(1, "List Books");
 
     private int option;
     private String description;
-    private String action;
 
-    MenuOptions(int option, String description, String action) {
+    MenuOptions(int option, String description) {
         this.option = option;
         this.description = description;
-        this.action = action;
     }
 
     public static MenuOptions resolveMenuOption(int optionCode) {
@@ -19,7 +17,7 @@ public enum MenuOptions {
             }
         }
 
-        throw new IllegalArgumentException("Nao existe Option com o codigo: " + optionCode);
+        throw new IllegalArgumentException("There is not option with the code: " + optionCode);
     }
 
     public int getOption() {
@@ -30,7 +28,4 @@ public enum MenuOptions {
         return description;
     }
 
-    public String getAction() {
-        return action;
-    }
 }

@@ -11,7 +11,9 @@ public class MainMenu {
 
     public void showMenu() {
         printer.print(getMenuOptions());
+
         doActionMenu(getChosenOption());
+
         showMenu();
     }
 
