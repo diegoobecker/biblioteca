@@ -11,6 +11,6 @@ public final class ActionsFactory {
 
         }
 
-        throw new IllegalStateException("Nao existe implementacao de action para a opcao:" + option.getDescription());
+        throw new IllegalStateException("There is not implemented action for option: " + option.getDescription());
     }
 }
