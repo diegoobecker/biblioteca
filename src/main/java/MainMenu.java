@@ -10,9 +10,17 @@ public class MainMenu {
     }
 
     public void showMenu() {
+        int chosenOption;
+
         printer.print(getMenuOptions());
 
-        doActionMenu(getChosenOption());
+        chosenOption = getChosenOption();
+
+        if (MenuOptions.validateOption(chosenOption)) {
+            doActionMenu(chosenOption);
+        } else {
+            printer.print(MessageManager.INVALID_MENU_OPTION);
+        }
 
         showMenu();
     }

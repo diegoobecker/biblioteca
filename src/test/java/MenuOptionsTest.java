@@ -9,4 +9,10 @@ public class MenuOptionsTest {
 
         MatcherAssert.assertThat(MenuOptions.resolveMenuOption(1), Is.is(MenuOptions.LIST_BOOK));
     }
+
+    @Test
+    public void validateOption() {
+
+        MatcherAssert.assertThat(MenuOptions.validateOption(1), Is.is(true));
+    }
 }

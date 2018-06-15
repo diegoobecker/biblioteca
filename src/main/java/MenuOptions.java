@@ -10,14 +10,25 @@ public enum MenuOptions {
     }
 
     public static MenuOptions resolveMenuOption(int optionCode) {
-
         for (MenuOptions option : MenuOptions.values()) {
             if (option.getOption() == optionCode) {
                 return option;
             }
         }
-
         throw new IllegalArgumentException("There is not option with the code: " + optionCode);
+    }
+
+    public static boolean validateOption(int optionCode) {
+
+        for (MenuOptions option : MenuOptions.values()) {
+            if (option.getOption() == optionCode) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        return false;
     }
 
     public int getOption() {
