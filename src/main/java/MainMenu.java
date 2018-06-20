@@ -16,11 +16,7 @@ public class MainMenu {
 
         chosenOption = getChosenOption();
 
-        if (MenuOptions.validateOption(chosenOption)) {
-            doActionMenu(chosenOption);
-        } else {
-            printer.print(MessageManager.INVALID_MENU_OPTION);
-        }
+        doActionMenu(chosenOption);
 
         showMenu();
     }
@@ -30,7 +26,9 @@ public class MainMenu {
         String menu = "\nPlease, select option menu item!";
 
         for (MenuOptions option : MenuOptions.values()) {
-            menu += "\n" + option.getOption() + " - " + option.getDescription();
+            if(option.getStatus().equalsIgnoreCase("show")){
+                menu += "\n" + option.getOption() + " - " + option.getDescription();
+            }
         }
 
         return menu;
@@ -47,8 +45,13 @@ public class MainMenu {
     }
 
     public void doActionMenu(int choseee) {
+        MenuOptions optionSelected;
 
-        MenuOptions optionSelected = MenuOptions.resolveMenuOption(choseee);
+        if(MenuOptions.validateOption(choseee)) {
+            optionSelected = MenuOptions.resolveMenuOption(choseee);
+        } else {
+            optionSelected = MenuOptions.INVALID_MENU_OPTION;
+        }
 
         ActionMenu action = ActionsFactory.getAction(optionSelected);
 

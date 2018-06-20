@@ -1,12 +1,15 @@
 public enum MenuOptions {
-    LIST_BOOK(1, "List Books");
+    LIST_BOOK(1, "List Books", "show"),
+    INVALID_MENU_OPTION(0, "Invalid Menu Option", "hiden");
 
     private int option;
     private String description;
+    private String status;
 
-    MenuOptions(int option, String description) {
+    MenuOptions(int option, String description, String status) {
         this.option = option;
         this.description = description;
+        this.status = status;
     }
 
     public static MenuOptions resolveMenuOption(int optionCode) {
@@ -21,7 +24,7 @@ public enum MenuOptions {
     public static boolean validateOption(int optionCode) {
 
         for (MenuOptions option : MenuOptions.values()) {
-            if (option.getOption() == optionCode) {
+            if (option.getOption() == optionCode && option.getStatus().equalsIgnoreCase("show")) {
                 return true;
             } else {
                 return false;
@@ -38,5 +41,7 @@ public enum MenuOptions {
     public String getDescription() {
         return description;
     }
+
+    public String getStatus() { return status;}
 
 }
