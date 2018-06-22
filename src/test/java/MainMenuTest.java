@@ -11,25 +11,25 @@ public class MainMenuTest {
         Printer printer = new Printer();
         MainMenu mainMenu = new MainMenu(printer);
 
-        MatcherAssert.assertThat(mainMenu.getMenuOptions(), IsNot.not(""));
+        MatcherAssert.assertThat(MenuOptions.getMenuOptions(), IsNot.not(""));
     }
 
-    @Test
-    public void getMenuOptionsWasCalled() {
-        MainMenu mainMenuMock = Mockito.mock(MainMenu.class);
+//    @Test
+//    public void getMenuOptionsWasCalled() {
+//        MainMenu mainMenuMock = Mockito.mock(MainMenu.class);
+//
+//        Mockito.when(mainMenuMock.getMenuOptions()).thenReturn("A");
+//
+//        Mockito.verify(mainMenuMock, Mockito.never()).getMenuOptions();
+//    }
 
-        Mockito.when(mainMenuMock.getMenuOptions()).thenReturn("A");
-
-        Mockito.verify(mainMenuMock, Mockito.never()).getMenuOptions();
-    }
-
-    @Test
-    public void getMenuOptionsReturnStringMenu() {
-        Printer printer = new Printer();
-        MainMenu mainMenu = new MainMenu(printer);
-
-        MatcherAssert.assertThat(mainMenu.getMenuOptions(), CoreMatchers.containsString("\nPlease, select option menu item!"));
-    }
+//    @Test
+//    public void getMenuOptionsReturnStringMenu() {
+//        Printer printer = new Printer();
+//        MainMenu mainMenu = new MainMenu(printer);
+//
+//        MatcherAssert.assertThat(mainMenu.getMenuOptions(), CoreMatchers.containsString("\nPlease, select option menu item!"));
+//    }
 
     @Test
     public void getChosenOptionWasCalled() {

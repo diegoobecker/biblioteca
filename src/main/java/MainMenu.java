@@ -27,7 +27,7 @@ public class MainMenu {
         Scanner chose = new Scanner(System.in);
         try {
             return chose.nextInt();
-        }catch (InputMismatchException e) {
+        } catch (InputMismatchException e) {
             return 0;
         }
     }
@@ -37,6 +37,7 @@ public class MainMenu {
 
         if(MenuOptions.validateOption(choseee)) {
             optionSelected = MenuOptions.resolveMenuOption(choseee);
+
         } else {
             optionSelected = MenuOptions.INVALID_MENU_OPTION;
         }
@@ -44,5 +45,6 @@ public class MainMenu {
         ActionMenu action = ActionsFactory.getAction(optionSelected);
 
         action.execute();
+
     }
 }

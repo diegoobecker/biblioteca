@@ -1,6 +1,7 @@
 public enum MenuOptions {
+    INVALID_MENU_OPTION(0, "Invalid Menu Option", "hiden"),
     LIST_BOOK(1, "List Books", "show"),
-    INVALID_MENU_OPTION(0, "Invalid Menu Option", "hiden");
+    QUIT(2, "Quit", "show");
 
     private int option;
     private String description;
@@ -22,23 +23,24 @@ public enum MenuOptions {
     }
 
     public static boolean validateOption(int optionCode) {
+        boolean result = false;
 
         for (MenuOptions option : MenuOptions.values()) {
-            if (option.getOption() == optionCode && option.getStatus().equalsIgnoreCase("show")) {
-                return true;
+            if (option.getOption() == optionCode) {
+                result = true;
+                break;
             } else {
-                return false;
+                result = false;
             }
         }
-
-        return false;
+        return result;
     }
 
     public static String getMenuOptions() {
-        String menu = "\nPlease, select option menu item!";
+        String menu = "\n\nPlease, select option menu item!";
 
         for (MenuOptions option : MenuOptions.values()) {
-            if(option.getStatus().equalsIgnoreCase("show")){
+            if (option.getStatus().equalsIgnoreCase("show")) {
                 menu += "\n" + option.getOption() + " - " + option.getDescription();
             }
         }
@@ -54,6 +56,8 @@ public enum MenuOptions {
         return description;
     }
 
-    public String getStatus() { return status;}
+    public String getStatus() {
+        return status;
+    }
 
 }
