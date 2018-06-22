@@ -34,6 +34,18 @@ public enum MenuOptions {
         return false;
     }
 
+    public static String getMenuOptions() {
+        String menu = "\nPlease, select option menu item!";
+
+        for (MenuOptions option : MenuOptions.values()) {
+            if(option.getStatus().equalsIgnoreCase("show")){
+                menu += "\n" + option.getOption() + " - " + option.getDescription();
+            }
+        }
+
+        return menu;
+    }
+
     public int getOption() {
         return option;
     }

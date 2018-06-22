@@ -6,32 +6,20 @@ public class MainMenu {
     private final Printer printer;
 
     public MainMenu(Printer printer) {
+
         this.printer = printer;
     }
 
     public void showMenu() {
         int chosenOption;
 
-        printer.print(getMenuOptions());
+        printer.print(MenuOptions.getMenuOptions());
 
         chosenOption = getChosenOption();
 
         doActionMenu(chosenOption);
 
         showMenu();
-    }
-
-
-    public String getMenuOptions() {
-        String menu = "\nPlease, select option menu item!";
-
-        for (MenuOptions option : MenuOptions.values()) {
-            if(option.getStatus().equalsIgnoreCase("show")){
-                menu += "\n" + option.getOption() + " - " + option.getDescription();
-            }
-        }
-
-        return menu;
     }
 
     public int getChosenOption() {
