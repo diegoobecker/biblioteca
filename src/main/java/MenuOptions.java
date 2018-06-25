@@ -23,17 +23,12 @@ public enum MenuOptions {
     }
 
     public static boolean validateOption(int optionCode) {
-        boolean result = false;
-
         for (MenuOptions option : MenuOptions.values()) {
             if (option.getOption() == optionCode) {
-                result = true;
-                break;
-            } else {
-                result = false;
+                return true;
             }
         }
-        return result;
+        return false;
     }
 
     public static String getMenuOptions() {

@@ -23,7 +23,7 @@ public class MainMenu {
     }
 
     public int getChosenOption() {
-        printer.print("\nYour Choice");
+        printer.print("\n\nYour Choice");
         Scanner chose = new Scanner(System.in);
         try {
             return chose.nextInt();
