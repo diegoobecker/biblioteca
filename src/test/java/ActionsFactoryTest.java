@@ -21,7 +21,7 @@ public class ActionsFactoryTest {
 
     @Test
     public void getActionIsCalledWithParameterInvalid() {
-        MenuOptions options = MenuOptions.values()[999];
+        MenuOptions options = MenuOptions.values()[99];
         ActionsFactory.getAction(options);
     }
 }
