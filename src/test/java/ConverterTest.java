@@ -11,7 +11,7 @@ public class ConverterTest {
     public void convertBookListToString() {
         Converter convert = new Converter();
 
-        List<Book> fakeBooks = Collections.singletonList(new Book(1, "Fake book 1", null, null));
+        List<Book> fakeBooks = Collections.singletonList(new Book(1, "Fake book 1", null, null, true));
 
         MatcherAssert.assertThat(convert.bookListToString(fakeBooks), CoreMatchers.containsString("Fake book 1"));
     }

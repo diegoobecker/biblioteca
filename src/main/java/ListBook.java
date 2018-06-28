@@ -8,13 +8,13 @@ public class ListBook {
     public ListBook() {
         this.listBook = new ArrayList();
 
-        addBook(1, "Clean Code", "Robert C Martin", "2008");
-        addBook(2, "Test-Driven Developement By Example", "Kent Back", "2000");
+        addBook(1, "Clean Code", "Robert C Martin", "2008", true);
+        addBook(2, "Test-Driven Developement By Example", "Kent Back", "2000", true);
 
     }
 
-    private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook) {
-        Book book = new Book(codeBook, nameBook, authorBook, publisherBook);
+    private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook, boolean availableBook) {
+        Book book = new Book(codeBook, nameBook, authorBook, publisherBook, availableBook);
 
         this.listBook.add(book);
     }

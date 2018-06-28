@@ -9,6 +9,8 @@ public final class ActionsFactory {
                     return new InvalidMenuOptionAction();
                 case QUIT:
                     return new QuitAction();
+                case CHECKOUT_BOOK:
+                    return new CheckoutBookAction();
             }
         } else {
             return new InvalidMenuOptionAction();

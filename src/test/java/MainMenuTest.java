@@ -22,7 +22,7 @@ public class MainMenuTest {
 //
 //        Mockito.verify(mainMenuMock, Mockito.never()).getMenuOptions();
 //    }
-
+//
 //    @Test
 //    public void getMenuOptionsReturnStringMenu() {
 //        Printer printer = new Printer();

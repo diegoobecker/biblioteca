@@ -1,7 +1,8 @@
 public enum MenuOptions {
     INVALID_MENU_OPTION(0, "Invalid Menu Option", "hiden"),
     LIST_BOOK(1, "List Books", "show"),
-    QUIT(2, "Quit", "show");
+    CHECKOUT_BOOK(2, "Checkout Book", "hiden"),
+    QUIT(3, "Quit", "show");
 
     private int option;
     private String description;
@@ -22,7 +23,7 @@ public enum MenuOptions {
         throw new IllegalArgumentException("There is not option with the code: " + optionCode);
     }
 
-    public static boolean validateOption(int optionCode) {
+    public static boolean validateMenuOption(int optionCode) {
         for (MenuOptions option : MenuOptions.values()) {
             if (option.getOption() == optionCode) {
                 return true;
@@ -55,4 +56,7 @@ public enum MenuOptions {
         return status;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
 }

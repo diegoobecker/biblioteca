@@ -11,6 +11,6 @@ public class MenuOptionsTest {
 
     @Test
     public void validateOptionReturnTrueWhenMenuOptionsIsValid() {
-        MatcherAssert.assertThat(MenuOptions.validateOption(1), Is.is(true));
+        MatcherAssert.assertThat(MenuOptions.validateMenuOption(1), Is.is(true));
     }
 }

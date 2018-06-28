@@ -6,5 +6,7 @@ public class ListBookAction implements ActionMenu {
         Converter converter = new Converter();
         Printer printer = new Printer();
         printer.print(converter.bookListToString(listBook.getBookList()));
+        MenuOptions.LIST_BOOK.setStatus("hiden");
+        MenuOptions.CHECKOUT_BOOK.setStatus("show");
     }
 }
