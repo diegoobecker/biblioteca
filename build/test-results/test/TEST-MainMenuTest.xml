@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainMenuTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-06-08T21:31:49" hostname="Diegos-MacBook-Pro.local" time="0.055">
+<testsuite name="MainMenuTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-03T14:48:32" hostname="Diegos-MacBook-Pro.local" time="0.043">
   <properties/>
   <testcase name="getChosenOptionWasCalled" classname="MainMenuTest" time="0.001"/>
-  <testcase name="getMenuOptionsReturnStringMenu" classname="MainMenuTest" time="0.05"/>
-  <testcase name="getMenuOptionsWasCalled" classname="MainMenuTest" time="0.001"/>
-  <testcase name="getMenuOptionsIsNotEmpty" classname="MainMenuTest" time="0.002"/>
+  <testcase name="getMenuOptionsIsNotEmpty" classname="MainMenuTest" time="0.036"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

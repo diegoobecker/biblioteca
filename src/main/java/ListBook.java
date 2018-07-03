@@ -3,7 +3,7 @@ import java.util.List;
 
 public class ListBook {
 
-    private final List<Book> listBook;
+    private List<Book> listBook;
 
     public ListBook() {
         this.listBook = new ArrayList();

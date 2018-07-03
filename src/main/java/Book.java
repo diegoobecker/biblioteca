@@ -14,6 +14,9 @@ public class Book {
         this.available = available;
     }
 
+    public void changeAvailability() {
+        this.available = !this.available;
+    }
 
     public int getCode() {
         return code;
@@ -35,7 +38,5 @@ public class Book {
         return available;
     }
 
-    public void setAvailable(boolean available) {
-        this.available = available;
-    }
+
 }
