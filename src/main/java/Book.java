@@ -1,5 +1,7 @@
 public class Book {
 
+    public static final Book INVALID_BOOK = new Book(0, "", "", "", false);
+
     private int code;
     private String name;
     private String author;
@@ -12,10 +14,6 @@ public class Book {
         this.author = author;
         this.publisher = publisher;
         this.available = available;
-    }
-
-    public void changeAvailability() {
-        this.available = !this.available;
     }
 
     public int getCode() {
@@ -36,6 +34,14 @@ public class Book {
 
     public boolean isAvailable() {
         return available;
+    }
+
+    public boolean isInvalid() {
+        return this.equals(INVALID_BOOK);
+    }
+
+    public void changeAvailability() {
+        this.available = !this.available;
     }
 
 

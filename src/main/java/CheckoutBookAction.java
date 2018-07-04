@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class CheckoutBookAction implements ActionMenu {
 
     private Printer printer;
-
     private ListBook listBook;
 
     public CheckoutBookAction(Printer printer, ListBook listBook) {
@@ -14,7 +13,6 @@ public class CheckoutBookAction implements ActionMenu {
 
     @Override
     public void execute() {
-
         printer.print("Which is code the book? ");
 
         Scanner choose = new Scanner(System.in);
@@ -26,7 +24,7 @@ public class CheckoutBookAction implements ActionMenu {
 
         CheckoutBook checkoutBook = new CheckoutBook();
 
-        if(checkoutBook.validateBookOption(code)){
+        if(checkoutBook.validateBookOption(code, listBook)){
             checkoutBook.checkout(code, listBook);
         }
 

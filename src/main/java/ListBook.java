@@ -10,7 +10,6 @@ public class ListBook {
 
         addBook(1, "Clean Code", "Robert C Martin", "2008", true);
         addBook(2, "Test-Driven Developement By Example", "Kent Back", "2000", true);
-
     }
 
     private void addBook(int codeBook ,String nameBook, String authorBook, String publisherBook, boolean availableBook) {
@@ -21,6 +20,15 @@ public class ListBook {
 
     public List<Book> getBookList() {
         return listBook;
+    }
+
+    public Book findBookByCode(int code) {
+        for (Book book : listBook) {
+            if (book.getCode() == code && book.isAvailable()) {
+                return book;
+            }
+        }
+        return Book.INVALID_BOOK;
     }
 
 }
