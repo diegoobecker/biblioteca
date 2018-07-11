@@ -13,4 +13,8 @@ public class CheckoutBook {
     public String successfulCheckout() {
         return MessageManager.SUCCESSFUL_CHECKOUT;
     }
+
+    public String unsuccessfulCheckout() {
+        return MessageManager.UNSUCCESSFUL_CHECKOUT;
+    }
 }

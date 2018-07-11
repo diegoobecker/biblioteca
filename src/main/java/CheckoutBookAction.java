@@ -13,23 +13,36 @@ public class CheckoutBookAction implements ActionMenu {
 
     @Override
     public void execute() {
+        CheckoutBook checkoutBook = new CheckoutBook();
+
+        // Reader.readNumberFromKeyboard
+
         printer.print("Which is code the book? ");
 
         Scanner choose = new Scanner(System.in);
-        // Reader.readNumberFromKeyboard
+
         int code = choose.nextInt();
-//        Aqui fazer checkout do livro que foi digitado o código
 
-        // DRY = dont repeat yourself
-
-        CheckoutBook checkoutBook = new CheckoutBook();
 
         if(checkoutBook.validateBookOption(code, listBook)){
             checkoutBook.checkout(code, listBook);
             printer.print(checkoutBook.successfulCheckout());
+            MenuOptions.LIST_BOOK.setStatus("show");
+            MenuOptions.CHECKOUT_BOOK.setStatus("hiden");
+        } else {
+            printer.print(checkoutBook.unsuccessfulCheckout());
+            execute();
         }
+    }
 
-        MenuOptions.LIST_BOOK.setStatus("show");
-        MenuOptions.CHECKOUT_BOOK.setStatus("hiden");
+    private int getOption() {
+
+
+
+        printer.print("Which is code the book? ");
+
+        Scanner choose = new Scanner(System.in);
+
+        return choose.nextInt();
     }
 }
