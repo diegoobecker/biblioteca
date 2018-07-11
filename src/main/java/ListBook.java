@@ -23,12 +23,10 @@ public class ListBook {
     }
 
     public Book findBookByCode(int code) {
-        for (Book book : listBook) {
-            if (book.getCode() == code && book.isAvailable()) {
-                return book;
-            }
-        }
-        return Book.INVALID_BOOK;
+        return listBook.stream()
+                .filter(book -> book.getCode() == code)
+                .findFirst()
+                .orElse(Book.INVALID_BOOK);
     }
 
 }
