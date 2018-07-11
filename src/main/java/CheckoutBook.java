@@ -9,4 +9,8 @@ public class CheckoutBook {
         Book book = listBook.findBookByCode(code);
         book.changeAvailability();
     }
+
+    public String successfulCheckout() {
+        return MessageManager.SUCCESSFUL_CHECKOUT;
+    }
 }

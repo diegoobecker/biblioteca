@@ -26,6 +26,7 @@ public class CheckoutBookAction implements ActionMenu {
 
         if(checkoutBook.validateBookOption(code, listBook)){
             checkoutBook.checkout(code, listBook);
+            printer.print(checkoutBook.successfulCheckout());
         }
 
         MenuOptions.LIST_BOOK.setStatus("show");
