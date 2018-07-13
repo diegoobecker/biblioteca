@@ -6,7 +6,6 @@ public class MainMenu {
     private final Printer printer;
 
     public MainMenu(Printer printer) {
-
         this.printer = printer;
     }
 
@@ -35,7 +34,7 @@ public class MainMenu {
     public void doActionMenu(int choseee) {
         MenuOptions optionSelected;
 
-        if(MenuOptions.validateOption(choseee)) {
+        if(MenuOptions.validateMenuOption(choseee)) {
             optionSelected = MenuOptions.resolveMenuOption(choseee);
 
         } else {

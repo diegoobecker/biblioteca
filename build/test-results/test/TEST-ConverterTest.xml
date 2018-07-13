@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-08T21:31:49" hostname="Diegos-MacBook-Pro.local" time="0.034">
+<testsuite name="ConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-03T14:48:32" hostname="Diegos-MacBook-Pro.local" time="0.025">
   <properties/>
-  <testcase name="convertBookListToString" classname="ConverterTest" time="0.034"/>
+  <testcase name="convertBookListToString" classname="ConverterTest" time="0.025"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

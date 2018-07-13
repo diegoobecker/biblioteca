@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MenuOptionsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-08T21:31:49" hostname="Diegos-MacBook-Pro.local" time="0.001">
+<testsuite name="MenuOptionsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-07-03T14:48:32" hostname="Diegos-MacBook-Pro.local" time="0.003">
   <properties/>
+  <testcase name="validateOptionReturnTrueWhenMenuOptionsIsValid" classname="MenuOptionsTest" time="0.0"/>
   <testcase name="resolveMenuOptionReturnEnumOption" classname="MenuOptionsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

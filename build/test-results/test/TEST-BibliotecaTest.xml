@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BibliotecaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-08T21:31:48" hostname="Diegos-MacBook-Pro.local" time="0.505">
+<testsuite name="BibliotecaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-03T14:48:31" hostname="Diegos-MacBook-Pro.local" time="0.376">
   <properties/>
-  <testcase name="printWelcomeMessage" classname="BibliotecaTest" time="0.505"/>
+  <testcase name="printWelcomeMessage" classname="BibliotecaTest" time="0.376"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

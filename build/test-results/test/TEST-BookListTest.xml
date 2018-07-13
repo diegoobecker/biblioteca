@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BookListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-06-08T21:31:49" hostname="Diegos-MacBook-Pro.local" time="0.001">
+<testsuite name="BookListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-07-03T14:48:32" hostname="Diegos-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="bookListIsNotEmpty" classname="BookListTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
