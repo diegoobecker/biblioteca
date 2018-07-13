@@ -5,9 +5,14 @@ public class CheckoutBook {
         return !book.isInvalid();
     }
 
-    public void checkout(int code, ListBook listBook) {
+    public boolean checkout(int code, ListBook listBook) {
         Book book = listBook.findBookByCode(code);
-        book.changeAvailability();
+        if(book.isAvailable() == true){
+            book.changeAvailability();
+            return true;
+        }
+
+        return false;
     }
 
     public String successfulCheckout() {
